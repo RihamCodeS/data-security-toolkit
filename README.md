@@ -8,19 +8,19 @@ Each module in this repository is self-contained and serves a specific purpose i
 
 ### Modules
 
-1. **Data Encription and Security** (`data-encryption-and-security/data_encryption_and_security.py`)  
+1. **Data Encription and Security** (`data-encryption-and-security/data_encryption_and_security_v1.py`)  
    - Provides functions for encrypting, decrypting, and validating data using the Fernet encryption mechanism.  
    - Ensures secure handling of sensitive information.
 
-2. **Data Integrity Verification** (`data-integrity-verification/data_integrity_verification.py`)  
+2. **Data Integrity Verification** (`data-integrity-verification/data_integrity_verification_v1.py`)  
    - Implements hash-based data verification using SHA-256.  
    - Ensures data integrity by verifying that data remains unaltered.
 
-3. **Role-Based Access Control (RBAC)** (`role-based-access-control/role_based_access_control.py`)  
+3. **Role-Based Access Control (RBAC)** (`role-based-access-control/role_based_access_control_v1.py`)  
    - Demonstrates role-based user permissions for secure access to resources.  
    - Includes decorators for enforcing access rules.
 
-4. **Fact-Check Simulator** (`fact-verification-simulator/fact_verification_simulator.py`)  
+4. **Fact-Check Simulator** (`fact-verification-simulator/fact_verification_simulator_v1.py`)  
    - Simulates a fact-checking process with random results as a placeholder.  
    - Can be integrated with real APIs for more robust functionality.
 
